@@ -1,12 +1,6 @@
 # smsCenterProvider
 
-This project works as a intermediary among SMS service providers and clients and provide for them an UI.
-They send a request base on requierd fields to the app and the web app handles the permissions and requests and convert the request to proper format for 
-sms provider and finally the message will be sent.
+This project functions as a bridge between SMS providers and clients. Each user can have multiple SMS providers, and when they want to send an SMS to an entered number,
+their providers are available to be chosen. The complexity of this project is related to the wide range of dynamic fields that have to be passed to each SMS provider for successful SMS sending.
 
-Technologies: Java - Spring boot - Hibernate - Data Jpa - Sql - Rest Api
-
-persian: 
-این پروژه به عنوان یک واسط کاربری میان اس ام اس سرویس ها و کلاینت ها عمل میکند. 
-در واقع مشتری نیاز به ارسال یک پیامک به شماره ای خاص دارد.براساس خرید مشتری از پنل های پیامکی
-فرمت و قالب پیامک ست می شود و به اس ام اس سرویس مربوطه ارسال می شود.
+Technologies: Java, Spring Boot, Hibernate, Data JPA, SQL, REST API
